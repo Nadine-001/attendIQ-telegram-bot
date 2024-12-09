@@ -37,7 +37,6 @@ const crypto = require("crypto");
 const { Telegraf, Markup, session } = require("telegraf");
 const { message } = require("telegraf/filters");
 const bot = new Telegraf(functions.config().telegrambot.key);
-// const bot = new Telegraf("7695731218:AAGbv-HAqent7SMCKQsoCnH6Id-9fRSO2Mw");
 
 // bot.use(session());
 
